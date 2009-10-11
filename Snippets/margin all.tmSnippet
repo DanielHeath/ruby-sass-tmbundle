@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>`put_colon.rb`margin ${1:20px}$0</string>
+	<string>margin: ${1:20px}$0</string>
 	<key>name</key>
-	<string>:margin all</string>
+	<string>margin: all</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>

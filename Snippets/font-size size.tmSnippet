@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>`put_colon.rb`font-size ${1:100%}$0</string>
+	<string>font-size: ${1:100%}$0</string>
 	<key>name</key>
-	<string>:font-size size</string>
+	<string>font-size: size</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>

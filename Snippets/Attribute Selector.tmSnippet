@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>background-image: none$0</string>
+	<string>${1:p}[${2:name}="${3:string}"]
+  ${4:property}: ${5:value}$0</string>
 	<key>name</key>
-	<string>background-image: none</string>
+	<string>Attribute Selector</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>
-	<string>background</string>
+	<string>as</string>
 	<key>uuid</key>
-	<string>E7D83276-CBBE-4A13-85CE-E84D2C82B404</string>
+	<string>F830FCFB-26E7-4E40-9EC8-7C4D6F222CDE</string>
 </dict>
 </plist>
