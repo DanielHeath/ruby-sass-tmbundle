@@ -507,7 +507,7 @@
 		<key>comment-block</key>
 		<dict>
 			<key>begin</key>
-			<string>( *)(/\*|\/)</string>
+			<string>^(\s*)(\/\/)</string>
 			<key>captures</key>
 			<dict>
 				<key>0</key>
@@ -517,9 +517,9 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>^(?!\s)</string>
+			<string>^\1(?![\s(\/\/)])</string>
 			<key>name</key>
-			<string>comment.block.sass</string>
+			<string>comment.sass</string>
 		</dict>
 		<key>property-value</key>
 		<dict>
