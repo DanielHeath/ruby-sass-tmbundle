@@ -517,7 +517,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>^(?! )</string>
+			<string>^(?!\s)</string>
 			<key>name</key>
 			<string>comment.block.sass</string>
 		</dict>
