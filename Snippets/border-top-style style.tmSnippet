@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>`put_colon.rb`border-top-style ${1:none/hidden/dotted/dashed/solid/double/groove/ridge/inset/outset}$0</string>
+	<string>border-top-style: ${1:none/hidden/dotted/dashed/solid/double/groove/ridge/inset/outset}$0</string>
 	<key>name</key>
-	<string>:border-top-style style</string>
+	<string>border-top-style: style</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>

@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>`put_colon.rb`border-top-width ${1:1}px</string>
+	<string>border-top-width: ${1:1}px</string>
 	<key>name</key>
-	<string>:border-top-width size</string>
+	<string>border-top-width: size</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>

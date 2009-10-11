@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>`put_colon.rb`color #${1:DDD}$0</string>
+	<string>color: #${1:DDD}$0</string>
 	<key>name</key>
-	<string>:color hex</string>
+	<string>color: hex</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>

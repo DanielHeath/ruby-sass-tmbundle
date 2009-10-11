@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>`put_colon.rb`background-attachment ${1:scroll/fixed}$0</string>
+	<string>background-attachment: ${1:scroll/fixed}$0</string>
 	<key>name</key>
-	<string>:background-attachment scroll/fixed</string>
+	<string>background-attachment: scroll/fixed</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>
