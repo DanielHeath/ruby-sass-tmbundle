@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>`put_colon.rb`padding-top ${1:20px}$0</string>
+	<string>padding-top: ${1:20px}$0</string>
 	<key>name</key>
-	<string>:padding-top length</string>
+	<string>padding-top: length</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>
