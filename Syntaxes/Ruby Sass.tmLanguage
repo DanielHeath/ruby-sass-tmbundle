@@ -507,7 +507,7 @@
 		<key>comment-block</key>
 		<dict>
 			<key>begin</key>
-			<string>^(\s*)(\/\/)</string>
+			<string>^(\s*)(\/\/|\/\*)</string>
 			<key>captures</key>
 			<dict>
 				<key>0</key>
