@@ -186,6 +186,10 @@
 					<string>#comment-block</string>
 				</dict>
 				<dict>
+					<key>include</key>
+					<string>#comment-block-css</string>
+				</dict>
+				<dict>
 					<key>match</key>
 					<string>(&amp;)</string>
 					<key>name</key>
@@ -308,6 +312,10 @@
 		<dict>
 			<key>include</key>
 			<string>#comment-block</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#comment-block-css</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -507,7 +515,7 @@
 		<key>comment-block</key>
 		<dict>
 			<key>begin</key>
-			<string>( *)(/\*|\/)</string>
+			<string>( *)(\/\/)</string>
 			<key>captures</key>
 			<dict>
 				<key>0</key>
@@ -517,9 +525,26 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>^$</string>
+			<string>\n</string>
 			<key>name</key>
 			<string>comment.block.sass</string>
+		</dict>
+		<key>comment-block-css</key>
+		<dict>
+			<key>begin</key>
+			<string>( *)/\*</string>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.sass.css</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>\*/</string>
+			<key>name</key>
+			<string>comment.block.sass.css</string>
 		</dict>
 		<key>property-value</key>
 		<dict>
