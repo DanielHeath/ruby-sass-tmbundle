@@ -22,14 +22,14 @@ This bundle was originally written in order to provide Sass snippets, but since 
 ### Textmate (OS X)
 
 #### With Git:
-    
+
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
     git clone git://github.com/charlesr/ruby-sass-tmbundle.git "Ruby Sass.tmbundle"
     osascript -e 'tell app "TextMate" to reload bundles'
 
 #### Without Git:
-    
+
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
     wget http://github.com/charlesr/ruby-sass-tmbundle/tarball/master
@@ -44,16 +44,15 @@ A reasonably up-to-date version of this bundle is usually available for installa
     
 #### With msysGit:
   
-* Make sure msysGit is installed, then at the command line:
+Make sure msysGit is installed, then at the command line:
     
     cd %appdata%\e\Bundles
     git clone git://github.com/charlesr/ruby-sass-tmbundle.git "Ruby Sass.tmbundle"
 
-* In E, select *Bundles > Edit Bundles > Reload Bundles*
+In E, select *Bundles > Edit Bundles > Reload Bundles*
     
 #### Without msysGit:
 
-* Download the bundle using Github's "Download" button
-* Extract the content of the folder contained in the zip file into:
+Download the bundle using Github's "Download" button and extract the content of the folder contained in the zip file into:
 
     %appdata%\e\Bundles\Ruby Sass.tmbundle\
