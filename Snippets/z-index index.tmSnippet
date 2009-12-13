@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>`put_colon.rb`z-index: $1$0</string>
+	<string>z-index:: $1$0</string>
 	<key>name</key>
-	<string>:z-index index</string>
+	<string>z-index: index</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>

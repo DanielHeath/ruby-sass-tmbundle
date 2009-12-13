@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>`put_colon.rb`background-image none$0</string>
+	<string>background-image: none$0</string>
 	<key>name</key>
-	<string>:background-image none</string>
+	<string>background-image: none</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>

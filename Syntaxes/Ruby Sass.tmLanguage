@@ -206,23 +206,68 @@
 			</array>
 		</dict>
 		<dict>
-			<key>captures</key>
+			<key>begin</key>
+			<string>^\s*(\+)([a-zA-Z0-9_-]+)</string>
+			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.entity.css</string>
+					<string>punctuation.definition.entity.sass</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>variable.other.sass</string>
 				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.entity.sass</string>
+				</dict>
 			</dict>
-			<key>match</key>
-			<string>^\s*(\+)([a-zA-Z0-9_-]+)</string>
+			<key>end</key>
+			<string>(;)?$</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>invalid.illegal.punctuation.sass</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>meta.variable-usage.sass</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.entity.css</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>variable.other.sass</string>
+						</dict>
+					</dict>
+					<key>match</key>
+					<string>(\!)([a-zA-Z0-9_-]+)</string>
+					<key>name</key>
+					<string>meta.variable-usage.sass</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#string-single</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#string-double</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -257,7 +302,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(a|abbr|acronym|address|area|b|base|big|blockquote|body|br|button|caption|cite|code|col|colgroup|dd|del|dfn|div|dl|dt|em|fieldset|form|frame|frameset|(h[1-6])|head|hr|html|i|iframe|img|input|ins|kbd|label|legend|li|link|map|meta|noframes|noscript|object|ol|optgroup|option|p|param|pre|q|samp|script|select|small|span|strike|strong|sub|sup|table|tbody|td|textarea|tfoot|th|thead|title|tr|tt|ul|var)\b</string>
+					<string>\b(a|abbr|acronym|address|area|article|aside|audio|b|base|big|blockquote|body|br|button|canvas|caption|cite|code|col|colgroup|command|datalist|dd|del|details|dfn|div|dl|dt|em|embed|fieldset|figure|footer|form|frame|frameset|(h[1-6])|head|header|hgroup|hr|html|i|iframe|img|input|ins|kbd|keygen|label|legend|li|link|map|mark|meta|meter|nav|noframes|noscript|object|ol|optgroup|option|output|p|param|pre|progress|q|rp|rt|ruby|samp|script|section|select|small|source|span|strike|strong|sub|sup|table|tbody|td|textarea|tfoot|th|thead|time|title|tr|tt|ul|var|video)\b</string>
 					<key>name</key>
 					<string>entity.name.tag.css.sass</string>
 				</dict>
