@@ -4,9 +4,9 @@
 <dict>
 	<key>content</key>
 	<string>${1:p}[${2:name}="${3:string}"]
-  `put_colon.rb`${4:property} ${5:value}$0</string>
+  ${4:property}: ${5:value}$0</string>
 	<key>name</key>
-	<string>:Attribute Selector</string>
+	<string>Attribute Selector</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>

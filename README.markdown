@@ -1,14 +1,26 @@
-## Notice
+## General Info
+This is a TextMate bundle for using the [Sass](http://sass-lang.com/) CSS replacement language.
 
-This project is in need of a [new maintainer](http://github.com/aussiegeek/ruby-sass-tmbundle/issues/#issue/4).
+## Installation
+    
+    With Git:
+    
+    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+    cd ~/Library/Application\ Support/TextMate/Bundles
+    git clone git://github.com/phuibonhoa/ruby-sass-tmbundle.git "Ruby Sass.tmbundle"
+    osascript -e 'tell app "TextMate" to reload bundles'
 
+## Credits
 
-This is a TextMate bundle for using the [Sass](http://haml.hamptoncatlin.com) CSS replacement language by Hampton Catlin
+Forked from (http://github.com/aussiegeek/ruby-sass-tmbundle/).
 
-
-I originally wrote this bundle just as a way of getting the CSS snippets, but since then many of you have added some fantastic contributions, and thank you to all. Thanks to GitHub for making it easy to bring all your awesome together
+Owner of the original bundle from which this was forked:
 
 [@aussiegeek](http://github.com/aussiegeek)
+
+
+Contributors to the original bundle from which this was forked:
+
 [@agibralter](http://github.com/agibralter)
 [@choan](http://github.com/choan)
 [@giannichiappetta](http://github.com/giannichiappetta)
@@ -20,21 +32,4 @@ I originally wrote this bundle just as a way of getting the CSS snippets, but si
 [@tharealpatton](http://github.com/tharealpatton)
 [@trevorsmith](http://github.com/trevorsmith)
 
-## Installation
-    
-    With Git:
-    
-    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
-    cd ~/Library/Application\ Support/TextMate/Bundles
-    git clone git://github.com/aussiegeek/ruby-sass-tmbundle.git "Ruby Sass.tmbundle"
-    osascript -e 'tell app "TextMate" to reload bundles'
 
-    Without Git:
-    
-    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
-    cd ~/Library/Application\ Support/TextMate/Bundles
-    wget http://github.com/aussiegeek/ruby-sass-tmbundle/tarball/master
-    tar zxf aussiegeek-ruby-sass-tmbundle*.tar.gz
-    rm aussiegeek-ruby-sass-tmbundle*.tar.gz
-    mv aussiegeek-ruby-sass-tmbundle* "Ruby on Rails.tmbundle"
-    osascript -e 'tell app "TextMate" to reload bundles'

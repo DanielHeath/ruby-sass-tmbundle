@@ -9,6 +9,8 @@
 export TM_RUBY=$(which "${TM_RUBY:-ruby}")
 
 "${TM_RUBY}" -e "require 'rubygems'; gem 'haml'; require 'sass/css'; puts Sass::CSS.new(ENV['TM_SELECTED_TEXT']).render"</string>
+	<key>fallbackInput</key>
+	<string>line</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
@@ -17,6 +19,8 @@ export TM_RUBY=$(which "${TM_RUBY:-ruby}")
 	<string>Convert CSS to SASS</string>
 	<key>output</key>
 	<string>replaceSelectedText</string>
+	<key>scope</key>
+	<string>source.css,source.sass</string>
 	<key>uuid</key>
 	<string>9083E047-CEBE-41C9-BCF7-6E8131094888</string>
 </dict>

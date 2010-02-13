@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>`put_colon.rb`clear ${1:left/right/both/none}$0</string>
+	<string>clear: ${1:left/right/both/none}$0</string>
 	<key>name</key>
-	<string>:clear value</string>
+	<string>clear: value</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>

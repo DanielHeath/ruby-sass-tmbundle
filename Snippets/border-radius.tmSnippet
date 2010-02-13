@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>`put_colon.rb`background-color rgba(${1:255},${2:255},${3:255},.${4:5})$0</string>
+	<string>-moz-border-radius: ${1:1}px
+-webkit-border-radius: ${1:1}px$0</string>
 	<key>name</key>
-	<string>:background-color rgba</string>
+	<string>border-radius:</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>
-	<string>background</string>
+	<string>border</string>
 	<key>uuid</key>
-	<string>C0C72835-7D5C-46B6-885B-B2FE5F994B84</string>
+	<string>7CB98910-EBEE-4A98-AF79-746DBAFB3B67</string>
 </dict>
 </plist>

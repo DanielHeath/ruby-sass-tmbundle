@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>`put_colon.rb`-moz-border-radius ${1:1}px
-`put_colon.rb`-webkit-border-radius ${1:1}px$0</string>
+	<string>!important$0</string>
 	<key>name</key>
-	<string>:border-radius</string>
+	<string>!important</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>
-	<string>border</string>
+	<string>!</string>
 	<key>uuid</key>
-	<string>7CB98910-EBEE-4A98-AF79-746DBAFB3B67</string>
+	<string>93FA09D2-2CA0-4B6C-8ABC-075B97E9410A</string>
 </dict>
 </plist>
