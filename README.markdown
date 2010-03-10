@@ -4,18 +4,18 @@ This is a TextMate compatible bundle for using the [Sass](http://sass-lang.com/)
 
 This bundle was originally written in order to provide Sass snippets, but since then there have been many fantastic contributions. Thanks to Github for making it easy to bring all of those contributions together:
 
-[@agibralter](http://github.com/agibralter)
-[@aussiegeek](http://github.com/aussiegeek)
-[@charler](http://github.com/charlesr)
-[@choan](http://github.com/choan)
-[@giannichiappetta](http://github.com/giannichiappetta)
-[@gruner](http://github.com/gruner)
-[@mattpolito](http://github.com/mattpolito)
-[@mattsa](http://github.com/mattsa)
-[@mfilej](http://github.com/mfilej)
-[@squishtech](http://github.com/squishtech)
-[@tharealpatton](http://github.com/tharealpatton)
-[@trevorsmith](http://github.com/trevorsmith)
+* [@agibralter](http://github.com/agibralter)
+* [@aussiegeek](http://github.com/aussiegeek)
+* [@charlesr](http://github.com/charlesr)
+* [@choan](http://github.com/choan)
+* [@giannichiappetta](http://github.com/giannichiappetta)
+* [@gruner](http://github.com/gruner)
+* [@mattpolito](http://github.com/mattpolito)
+* [@mattsa](http://github.com/mattsa)
+* [@mfilej](http://github.com/mfilej)
+* [@squishtech](http://github.com/squishtech)
+* [@tharealpatton](http://github.com/tharealpatton)
+* [@trevorsmith](http://github.com/trevorsmith)
 
 ## Installation
 
