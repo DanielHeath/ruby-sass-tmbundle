@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>background-image: none$0</string>
+	<string>!important$0</string>
 	<key>name</key>
-	<string>background-image: none</string>
+	<string>!important</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>
-	<string>background</string>
+	<string>!</string>
 	<key>uuid</key>
-	<string>E7D83276-CBBE-4A13-85CE-E84D2C82B404</string>
+	<string>93FA09D2-2CA0-4B6C-8ABC-075B97E9410A</string>
 </dict>
 </plist>

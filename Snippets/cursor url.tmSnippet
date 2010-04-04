@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>`put_colon.rb`cursor url($1)$0</string>
+	<string>cursor: url($1)$0</string>
 	<key>name</key>
-	<string>:cursor url</string>
+	<string>cursor: url</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>
