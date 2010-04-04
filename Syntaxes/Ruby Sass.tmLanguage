@@ -622,7 +622,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(?=^\1(?![\s(\/\/)])|^$|^\1$)</string>
+			<string>^(?!\1\s)</string>
 			<key>name</key>
 			<string>comment.sass</string>
 		</dict>
