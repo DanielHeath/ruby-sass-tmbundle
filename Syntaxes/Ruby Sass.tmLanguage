@@ -61,13 +61,13 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>^(=)([a-zA-Z0-9_-]+)</string>
+			<string>^(=|@mixin\s+)([a-zA-Z0-9_-]+)</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.entity.sass</string>
+					<string>keyword.control.at-rule.mixin.sass</string>
 				</dict>
 				<key>2</key>
 				<dict>
@@ -99,6 +99,71 @@
 					<string>#property-value</string>
 				</dict>
 			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>^\s*(\+|@include\s+)([a-zA-Z0-9_-]+)</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.at-rule.import.sass</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.other.sass</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.entity.sass</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(;)?$</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>invalid.illegal.punctuation.sass</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>meta.function.include.sass</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#property-value</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.at-rule.extend.sass</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.other.sass</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>invalid.illegal.punctuation.sass</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^\s*(@extend)\s+([.*&amp;#a-zA-Z][:.*&amp;#a-zA-Z]*)\s*(;)?\s*$</string>
+			<key>name</key>
+			<string>meta.function.extend.sass</string>
 		</dict>
 		<dict>
 			<key>begin</key>
