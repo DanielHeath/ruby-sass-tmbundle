@@ -258,7 +258,15 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(a|abbr|acronym|address|area|article|aside|audio|b|base|big|blockquote|body|br|button|canvas|caption|cite|code|col|colgroup|command|datalist|dd|del|details|dfn|div|dl|dt|em|embed|fieldset|figure|footer|form|frame|frameset|(h[1-6])|head|header|hgroup|hr|html|i|iframe|img|input|ins|kbd|keygen|label|legend|li|link|map|mark|meta|meter|nav|noframes|noscript|object|ol|optgroup|option|output|p|param|pre|progress|q|rp|rt|ruby|samp|script|section|select|small|source|span|strike|strong|sub|sup|table|tbody|td|textarea|tfoot|th|thead|time|title|tr|tt|ul|var|video)\b</string>
+					<string>(?x)\b
+					         (a|abbr|acronym|address|area|article|aside|audio|b|base|big|blockquote|body|
+				              br|button|canvas|caption|cite|code|col|colgroup|command|datalist|dd|del|
+				              details|dfn|div|dl|dt|em|embed|fieldset|figure|footer|form|frame|frameset|
+				              (h[1-6])|head|header|hgroup|hr|html|i|iframe|img|input|ins|kbd|keygen|
+				              label|legend|li|link|map|mark|meta|meter|nav|noframes|noscript|object|
+				              ol|optgroup|option|output|p|param|pre|progress|q|rp|rt|ruby|samp|script|
+				              section|select|small|source|span|strike|strong|sub|sup|table|tbody|td|
+				              textarea|tfoot|th|thead|time|title|tr|tt|ul|var|video)\b</string>
 					<key>name</key>
 					<string>entity.name.tag.css.sass</string>
 				</dict>
@@ -520,7 +528,31 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>(azimuth|background-attachment|background-color|background-image|background-position|background-repeat|background|border-bottom-color|border-bottom-style|border-bottom-width|border-bottom|border-collapse|border-color|border-left-color|border-left-style|border-left-width|border-left|border-radius|border-right-color|border-right-style|border-right-width|border-right|border-spacing|border-style|border-top-color|border-top-style|border-top-width|border-top|border-width|border|bottom|box-shadow|caption-side|clear|clip|color|content|counter-increment|counter-reset|cue-after|cue-before|cue|cursor|decoration|direction|display|elevation|empty-cells|family|float|font-family|font-size-adjust|font-size|font-stretch|font-style|font-variant|font-weight|font|height|image|indent|left|letter-spacing|line-height|list-style-image|list-style-position|list-style-type|list-style|margin-bottom|margin-left|margin-right|margin-top|marker-offset|margin|marks|max-height|max-width|min-height|min-width|-moz-border-radius|-moz-box-shadow|opacity|orphans|outline-color|outline-style|outline-width|outline|overflow(-[xy])?|padding-bottom|padding-left|padding-right|padding-top|padding|page-break-after|page-break-before|page-break-inside|page|pause-after|pause-before|pause|pitch-range|pitch|play-during|position|quotes|repeat|richness|right|shadow|size|speak-header|speak-numeral|speak-punctuation|speech-rate|speak|src|stress|style|table-layout|text|text-align|text-decoration|text-indent|text-shadow|text-transform|top|transform|unicode-bidi|vertical-align|visibility|voice-family|volume|weight|white-space|widows|width|word-spacing|z-index)\b</string>
+					<string>(?x)
+					         (azimuth|background-attachment|background-color|background-image|
+				              background-position|background-repeat|background|border-bottom-color|
+				              border-bottom-style|border-bottom-width|border-bottom|border-collapse|
+				              border-color|border-left-color|border-left-style|border-left-width|
+				              border-left|border-radius|border-right-color|border-right-style|
+				              border-right-width|border-right|border-spacing|border-style|border-top-color|
+				              border-top-style|border-top-width|border-top|border-width|border|bottom|
+				              box-shadow|caption-side|clear|clip|color|content|counter-increment|
+				              counter-reset| cue-after|cue-before|cue|cursor|decoration|direction|display|
+				              elevation|empty-cells|family|float|font-family|font-size-adjust|font-size|
+				              font-stretch|font-style|font-variant|font-weight|font|height|image|indent|
+				              left|letter-spacing|line-height|list-style-image|list-style-position|
+				              list-style-type|list-style|margin-bottom|margin-left|margin-right|margin-top|
+				              marker-offset|margin|marks|max-height|max-width|min-height|min-width|
+				              -moz-border-radius|-moz-box-shadow|opacity|orphans|outline-color|
+				              outline-style|outline-width|outline|overflow(-[xy])?|padding-bottom|
+				              padding-left|padding-right|padding-top|padding|page-break-after|
+				              page-break-before|page-break-inside|page|pause-after|pause-before|pause|
+				              pitch-range|pitch|play-during|position|quotes|repeat|richness|right|shadow|
+				              size|speak-header|speak-numeral|speak-punctuation|speech-rate|speak|src|
+				              stress|style|table-layout|text|text-align|text-decoration|text-indent|
+				              text-shadow|text-transform|top|transform|unicode-bidi|vertical-align|
+				              visibility|voice-family|volume|weight|white-space|widows|width|word-spacing|
+				              z-index)\b</string>
 					<key>name</key>
 					<string>support.type.property-name.css.sass</string>
 				</dict>
@@ -532,7 +564,29 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>^[\s\t]+(align|azimuth|background-attachment|background-color|background-image|background-position|background-repeat|background|border-bottom-color|border-bottom-style|border-bottom-width|border-bottom|border-collapse|border-color|border-left-color|border-left-style|border-left-width|border-left|border-radius|border-right-color|border-right-style|border-right-width|border-right|border-spacing|border-style|border-top-color|border-top-style|border-top-width|border-top|border-width|border|bottom|box-shadow|caption-side|clear|clip|color|content|counter-increment|counter-reset|cue-after|cue-before|cue|cursor|decoration|direction|display|elevation|empty-cells|family|float|font-family|font-size-adjust|font-size|font-stretch|font-style|font-variant|font-weight|font|height|image|indent|left|letter-spacing|line-height|list-style-image|list-style-position|list-style-type|list-style|margin-bottom|margin-left|margin-right|margin-top|marker-offset|margin|marks|max-height|max-width|min-height|min-width|-moz-border-radius|-moz-box-shadow|opacity|orphans|outline-color|outline-style|outline-width|outline|overflow(-[xy])?|padding-bottom|padding-left|padding-right|padding-top|padding|page-break-after|page-break-before|page-break-inside|page|pause-after|pause-before|pause|pitch-range|pitch|play-during|position|quotes|repeat|richness|right|shadow|size|speak-header|speak-numeral|speak-punctuation|speech-rate|speak|src|stress|style|table-layout|text|text-align|text-decoration|text-indent|text-shadow|text-transform|top|transform|unicode-bidi|vertical-align|visibility|voice-family|volume|-webkit-border-radius|-webkit-box-shadow|weight|white-space|widows|width|word-spacing|z-index)\b(:|\s?=)</string>
+			<string>(?x)^[\s\t]+
+			         (align|azimuth|background-attachment|background-color|background-image|
+			          background-position|background-repeat|background|border-bottom-color|
+			          border-bottom-style|border-bottom-width|border-bottom|border-collapse|border-color|
+			          border-left-color|border-left-style|border-left-width|border-left|border-radius|
+			          border-right-color|border-right-style|border-right-width|border-right|border-spacing|
+			          border-style|border-top-color|border-top-style|border-top-width|border-top|
+			          border-width|border|bottom|box-shadow|caption-side|clear|clip|color|content|
+			          counter-increment|counter-reset|cue-after|cue-before|cue|cursor|decoration|direction|
+			          display|elevation|empty-cells|family|float|font-family|font-size-adjust|font-size|
+			          font-stretch|font-style|font-variant|font-weight|font|height|image|indent|left|
+			          letter-spacing|line-height|list-style-image|list-style-position|list-style-type|
+			          list-style|margin-bottom|margin-left|margin-right|margin-top|marker-offset|margin|
+			          marks|max-height|max-width|min-height|min-width|-moz-border-radius|-moz-box-shadow|
+			          opacity|orphans|outline-color|outline-style|outline-width|outline|overflow(-[xy])?|
+			          padding-bottom|padding-left|padding-right|padding-top|padding|page-break-after|
+			          page-break-before|page-break-inside|page|pause-after|pause-before|pause|pitch-range|
+			          pitch|play-during|position|quotes|repeat|richness|right|shadow|size|speak-header|
+			          speak-numeral|speak-punctuation|speech-rate|speak|src|stress|style|table-layout|text|
+			          text-align|text-decoration|text-indent|text-shadow|text-transform|top|transform|
+			          unicode-bidi|vertical-align|visibility|voice-family|volume|-webkit-border-radius|
+			          -webkit-box-shadow|weight|white-space|widows|width|word-spacing|z-index
+			         )\b(:|\s?=)</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -639,13 +693,31 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(absolute|all-scroll|always|auto|baseline|below|bidi-override|block|bold|bolder|both|bottom|break-all|break-word|capitalize|center|char|circle|col-resize|collapse|crosshair|dashed|decimal|default|disabled|disc|distribute-all-lines|distribute-letter|distribute-space|distribute|dotted|double|e-resize|ellipsis|fixed|groove|hand|help|hidden|horizontal|ideograph-alpha|ideograph-numeric|ideograph-parenthesis|ideograph-space|inactive|inherit|inline-block|inline|inset|inside|inter-ideograph|inter-word|italic|justify|keep-all|left|lighter|line-edge|line-through|line|list-item|loose|lower-alpha|lower-roman|lowercase|lr-tb|ltr|medium|middle|move|n-resize|ne-resize|newspaper|no-drop|no-repeat|nw-resize|none|normal|not-allowed|nowrap|oblique|outset|outside|overline|pointer|progress|relative|repeat-x|repeat-y|repeat|right|ridge|row-resize|rtl|s-resize|scroll|se-resize|separate|small-caps|solid|square|static|strict|super|sw-resize|table-footer-group|table-header-group|tb-rl|text-bottom|text-top|text|thick|thin|top|transparent|underline|upper-alpha|upper-roman|uppercase|vertical-ideographic|vertical-text|visible|w-resize|wait|whitespace)\b</string>
+					<string>(?x)\b(absolute|all-scroll|always|auto|baseline|below|bidi-override|block|bold|
+					          bolder|both|bottom|break-all|break-word|capitalize|center|char|circle|
+					          col-resize|collapse|crosshair|dashed|decimal|default|disabled|disc|
+					          distribute-all-lines|distribute-letter|distribute-space|distribute|dotted|
+					          double|e-resize|ellipsis|fixed|groove|hand|help|hidden|horizontal|
+					          ideograph-alpha|ideograph-numeric|ideograph-parenthesis|ideograph-space|
+					          inactive|inherit|inline-block|inline|inset|inside|inter-ideograph|
+					          inter-word|italic|justify|keep-all|left|lighter|line-edge|line-through|
+					          line|list-item|loose|lower-alpha|lower-roman|lowercase|lr-tb|ltr|medium|
+					          middle|move|n-resize|ne-resize|newspaper|no-drop|no-repeat|nw-resize|none|
+					          normal|not-allowed|nowrap|oblique|outset|outside|overline|pointer|progress|
+					          relative|repeat-x|repeat-y|repeat|right|ridge|row-resize|rtl|s-resize|
+					          scroll|se-resize|separate|small-caps|solid|square|static|strict|super|
+					          sw-resize|table-footer-group|table-header-group|tb-rl|text-bottom|text-top|
+					          text|thick|thin|top|transparent|underline|upper-alpha|upper-roman|uppercase|
+					          vertical-ideographic|vertical-text|visible|w-resize|wait|whitespace
+					         )\b</string>
 					<key>name</key>
 					<string>support.constant.property-value.css.sass</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>(\b(?i:arial|century|comic|courier|garamond|georgia|helvetica|impact|lucida(?: sans)?|symbol|system|tahoma|times(?: new roman)?|trebuchet|utopia|verdana|webdings|sans-serif|serif|mono|monospace)\b)</string>
+					<string>(?x)(\b(?i:arial|century|comic|courier|garamond|georgia|helvetica|impact|
+					    lucida(?: sans)?|symbol|system|tahoma|times(?: new roman)?|trebuchet|utopia|verdana|
+					    webdings|sans-serif|serif|mono|monospace)\b)</string>
 					<key>name</key>
 					<string>support.constant.font-name.css.sass</string>
 				</dict>
@@ -659,7 +731,8 @@
 					<key>comment</key>
 					<string>http://www.w3schools.com/css/css_colors.asp</string>
 					<key>match</key>
-					<string>\b(aqua|black|blue|fuchsia|gray|green|lime|maroon|navy|olive|purple|red|silver|teal|white|yellow)\b</string>
+					<string>(?x)\b(aqua|black|blue|fuchsia|gray|green|lime|maroon|navy|olive|purple|
+					    red|silver|teal|white|yellow)\b</string>
 					<key>name</key>
 					<string>support.constant.color.w3c-standard-color-name.css.sass</string>
 				</dict>
@@ -667,7 +740,25 @@
 					<key>comment</key>
 					<string>These colours are mostly recognised but will not validate. ref: http://www.w3schools.com/css/css_colornames.asp</string>
 					<key>match</key>
-					<string>\b(seagreen|hotpink|lawngreen|darkgreen|violet|darkred|crimson|green|sandybrown|navy|magenta|darkslategray|steelblue|silver|darkgrey|mistyrose|gray|aliceblue|blueviolet|lightpink|saddlebrown|chocolate|limegreen|lightslategray|yellowgreen|pink|lightskyblue|indigo|lightblue|floralwhite|navajowhite|mediumvioletred|honeydew|aquamarine|blue|olivedrab|palegreen|slategray|lavenderblush|wheat|moccasin|mediumturquoise|mediumspringgreen|lightcoral|mintcream|tomato|lightgrey|black|darkmagenta|dimgray|darkturquoise|midnightblue|plum|indianred|coral|lightcyan|mediumslateblue|darkcyan|darkslateblue|darkkhaki|ivory|azure|khaki|powderblue|darkgoldenrod|orangered|burlywood|turquoise|royalblue|maroon|cornsilk|antiquewhite|yellow|teal|orange|grey|darkslategrey|slateblue|seashell|darkorchid|snow|lightslategrey|cyan|greenyellow|palevioletred|goldenrod|deepskyblue|lightyellow|lightseagreen|sienna|lemonchiffon|darkviolet|paleturquoise|slategrey|skyblue|purple|mediumpurple|cadetblue|fuchsia|chartreuse|darksalmon|lightgoldenrodyellow|white|springgreen|olive|forestgreen|peachpuff|peru|dimgrey|mediumseagreen|thistle|firebrick|darkgray|mediumaquamarine|darkolivegreen|mediumblue|palegoldenrod|blanchedalmond|ghostwhite|gold|gainsboro|darkseagreen|cornflowerblue|lime|lavender|beige|orchid|mediumorchid|whitesmoke|bisque|lightgray|tan|salmon|rosybrown|red|dodgerblue|brown|aqua|oldlace|deeppink|papayawhip|lightsalmon|lightsteelblue|darkorange|darkblue|linen|lightgreen)\b</string>
+					<string>(?x)\b(seagreen|hotpink|lawngreen|darkgreen|violet|darkred|crimson|green|
+					    sandybrown|navy|magenta|darkslategray|steelblue|silver|darkgrey|mistyrose|gray|
+					    aliceblue|blueviolet|lightpink|saddlebrown|chocolate|limegreen|lightslategray|
+					    yellowgreen|pink|lightskyblue|indigo|lightblue|floralwhite|navajowhite|
+					    mediumvioletred|honeydew|aquamarine|blue|olivedrab|palegreen|slategray|lavenderblush|
+					    wheat|moccasin|mediumturquoise|mediumspringgreen|lightcoral|mintcream|tomato|
+					    lightgrey|black|darkmagenta|dimgray|darkturquoise|midnightblue|plum|indianred|coral|
+					    lightcyan|mediumslateblue|darkcyan|darkslateblue|darkkhaki|ivory|azure|khaki|
+					    powderblue|darkgoldenrod|orangered|burlywood|turquoise|royalblue|maroon|cornsilk|
+					    antiquewhite|yellow|teal|orange|grey|darkslategrey|slateblue|seashell|darkorchid|
+					    snow|lightslategrey|cyan|greenyellow|palevioletred|goldenrod|deepskyblue|lightyellow|
+					    lightseagreen|sienna|lemonchiffon|darkviolet|paleturquoise|slategrey|skyblue|purple|
+					    mediumpurple|cadetblue|fuchsia|chartreuse|darksalmon|lightgoldenrodyellow|white|
+					    springgreen|olive|forestgreen|peachpuff|peru|dimgrey|mediumseagreen|thistle|firebrick|
+					    darkgray|mediumaquamarine|darkolivegreen|mediumblue|palegoldenrod|blanchedalmond|
+					    ghostwhite|gold|gainsboro|darkseagreen|cornflowerblue|lime|lavender|beige|orchid|
+					    mediumorchid|whitesmoke|bisque|lightgray|tan|salmon|rosybrown|red|dodgerblue|brown|
+					    aqua|oldlace|deeppink|papayawhip|lightsalmon|lightsteelblue|darkorange|darkblue|linen|
+					    lightgreen)\b</string>
 					<key>name</key>
 					<string>invalid.deprecated.color.w3c-non-standard-color-name.css.sass</string>
 				</dict>
