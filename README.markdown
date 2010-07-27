@@ -16,6 +16,7 @@ This bundle was originally written in order to provide Sass snippets, but since 
 * [@squishtech](http://github.com/squishtech)
 * [@tharealpatton](http://github.com/tharealpatton)
 * [@trevorsmith](http://github.com/trevorsmith)
+* [@antw](http://github.com/antw)
 
 ## Installation
 
